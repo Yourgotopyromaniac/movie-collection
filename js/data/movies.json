@@ -1,0 +1,46 @@
+{
+  "movies": [
+    {
+      "title": "Chainsaw Man: Reze Arc",
+      "release year": "2025",
+      "genre": "Action",
+      "description": "A direct sequel to the first season of the series 'Chainsaw Man', featuring Denji, a young man who co-exists with a chainsaw demon. Denji encounters a new romantic interest, but will his involvement place them both in danger?",
+      "poster": "./images/chainsawMan.jpg"
+    },
+    {
+      "title": "Beautiful Boy",
+      "release year": "2018",
+      "genre": "Drama",
+      "description": "A family coping with addiction over many years goes through the heartbreaking and inspiring experience of survival, relapse and recovery.",
+      "poster": "./images/beautifulBoy.jpg"
+    },
+    {
+      "title": "Ender's Game",
+      "release year": "2013",
+      "genre": "Sci-Fi",
+      "description": "Young Ender Wiggin is recruited by the International Military to lead the fight against the Formics, an insectoid alien race who had previously tried to invade Earth and had inflicted heavy losses on humankind.",
+      "poster": "./images/endersGame.jpg"
+    },
+    {
+      "title": "",
+      "release year": "",
+      "genre": "",
+      "description": "",
+      "poster": ""
+    },
+    {
+      "title": "",
+      "release year": "",
+      "genre": "",
+      "description": "",
+      "poster": ""
+    },
+    {
+      "title": "",
+      "release year": "",
+      "genre": "",
+      "description": "",
+      "poster": ""
+    }
+  ]
+}
