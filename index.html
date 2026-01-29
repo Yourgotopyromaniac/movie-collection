@@ -11,34 +11,49 @@
     <main>
       <section>
         <h1>Movie Collection Web Application</h1>
+        <p>
+          A simple web application that showcases a collection of movies using
+          HTML, CSS and Vanilla JavaScript.
+        </p>
       </section>
 
-      <!-- movie collection grid -->
-      <section class="movie-container">
-        <!-- individual card -->
-        <div class="card">
-          <img src="./images/chainsawMan.jpg" id="poster" alt="" />
-          <div class="card-text">
-            <p id="title">Chainsaw Man: Reze Arc</p>
-            <span class="title-container">
-              <p id="release-year">2025</p>
-              <p id="genre">Action</p>
-            </span>
-            <p id="description">
-              A direct sequel to the first season of the series 'Chainsaw Man',
-              featuring Denji, a young man who co-exists with a chainsaw demon.
-              Denji encounters a new romantic interest, but will his involvement
-              place them both in danger?
-            </p>
-          </div>
-        </div>
+      <!-- Search and filter placeholder elements -->
+      <section>
+        <input type="text" placeholder="Search movies..." />
+        <select>
+          <option value="">All Genres</option>
+        </select>
+      </section>
 
-        <!-- remaining individual cards -->
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+      <section>
+        <h2>All Genres</h2>
+        <!-- movie collection grid -->
+        <section class="movie-container">
+          <!-- individual card -->
+          <div class="card">
+            <img src="./images/chainsawMan.jpg" id="poster" alt="" />
+            <div class="card-text">
+              <p id="title">Chainsaw Man: Reze Arc</p>
+              <span class="title-container">
+                <p id="release-year">2025</p>
+                <p id="genre">Action</p>
+              </span>
+              <p id="description">
+                A direct sequel to the first season of the series 'Chainsaw
+                Man', featuring Denji, a young man who co-exists with a chainsaw
+                demon. Denji encounters a new romantic interest, but will his
+                involvement place them both in danger?
+              </p>
+            </div>
+          </div>
+
+          <!-- remaining individual cards -->
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </section>
       </section>
     </main>
   </body>
