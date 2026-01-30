@@ -27,8 +27,9 @@ function renderMovies(movies) {
     card.classList.add("card");
 
     card.innerHTML = `
-      <img src="${movie.poster}" alt="${movie.title}" />
-
+    <div class="poster-wrapper">
+      <img src="${movie.poster}" class="poster" alt="${movie.title}" />
+    </div>
       <div class="card-text">
         <p class="title">${movie.title}</p>
 
