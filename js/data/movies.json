@@ -2,45 +2,45 @@
   "movies": [
     {
       "title": "Chainsaw Man: Reze Arc",
-      "release year": "2025",
+      "releaseYear": "2025",
       "genre": "Action",
       "description": "A direct sequel to the first season of the series 'Chainsaw Man', featuring Denji, a young man who co-exists with a chainsaw demon. Denji encounters a new romantic interest, but will his involvement place them both in danger?",
       "poster": "./images/chainsawMan.jpg"
     },
     {
       "title": "Beautiful Boy",
-      "release year": "2018",
+      "releaseYear": "2018",
       "genre": "Drama",
       "description": "A family coping with addiction over many years goes through the heartbreaking and inspiring experience of survival, relapse and recovery.",
       "poster": "./images/beautifulBoy.jpg"
     },
     {
       "title": "Ender's Game",
-      "release year": "2013",
+      "releaseYear": "2013",
       "genre": "Sci-Fi",
       "description": "Young Ender Wiggin is recruited by the International Military to lead the fight against the Formics, an insectoid alien race who had previously tried to invade Earth and had inflicted heavy losses on humankind.",
       "poster": "./images/endersGame.jpg"
     },
     {
-      "title": "",
-      "release year": "",
-      "genre": "",
-      "description": "",
-      "poster": ""
+      "title": "Inception",
+      "releaseYear": "2010",
+      "genre": "Action",
+      "description": "Cobb steals information from his targets by entering their dreams. He is wanted for his alleged role in his wife's murder and his only chance at redemption is to perform a nearly impossible task.",
+      "poster": "./images/inception.jpg"
     },
     {
-      "title": "",
-      "release year": "",
-      "genre": "",
-      "description": "",
-      "poster": ""
+      "title": "Anchor Baby",
+      "releaseYear": "2010",
+      "genre": "Drama",
+      "description": "A Nigerian couple living in the United States defy deportation orders in the hope of giving their unborn child a better life.",
+      "poster": "./images/anchorBaby.webp"
     },
     {
-      "title": "",
-      "release year": "",
-      "genre": "",
-      "description": "",
-      "poster": ""
+      "title": "Hardcore Henry",
+      "releaseYear": "2016",
+      "genre": "Action",
+      "description": "Henry, a cyborg, is resurrected from the dead in order to save his creator and wife, Estelle. However, he soon learns he is up against a tyrant with telekinetic powers and an army of mercenaries.",
+      "poster": "./images/hardcoreHenry.jpg"
     }
   ]
 }
