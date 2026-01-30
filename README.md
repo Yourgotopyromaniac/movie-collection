@@ -109,3 +109,4 @@ npx serve
 - Github defaults the base branch for a PR to the `main` branch, so it's important to change this to the required development or base branch when raising a PR.
 - Pull from the remote base branch before pushing changes, to integrate any changes that could've occured during development.
 - Learned to view the git workflow with VS Code source control timeline graph.
+- Learned not to mixup checkout and switch git commands, and subsequently learnt how to delete a branch with git
