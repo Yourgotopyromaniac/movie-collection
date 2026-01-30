@@ -86,7 +86,6 @@ select {
   display: grid;
   gap: 0.3rem;
   padding: 1rem;
-  /* border: 1px solid #FF7F50; */
 }
 
 .title {
