@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,99 +19,17 @@
 
       <!-- Search and filter placeholder elements -->
       <section>
-        <input type="text" placeholder="Search movies..." />
-        <select>
+        <input type="text" id="searchInput" placeholder="Search movies..." />
+        <select id="genreFilter">
           <option value="">All Genres</option>
         </select>
       </section>
 
       <section id="movie-container-wrapper">
         <h2>All Genres</h2>
-        <!-- movie collection grid -->
-        <section class="movie-container">
-          <!-- individual card -->
-          <div class="card">
-            <img src="./images/chainsawMan.jpg" id="poster" alt="" />
-            <div class="card-text">
-              <p id="title">Chainsaw Man: Reze Arc</p>
-              <span class="title-container">
-                <p id="release-year">Release Year: 2025</p>
-                <p id="genre">Genre: Action</p>
-              </span>
-              <p id="description">
-                A direct sequel to the first season of the series 'Chainsaw
-                Man', featuring Denji, a young man who co-exists with a chainsaw
-                demon. Denji encounters a new romantic interest, but will his
-                involvement place them both in danger?
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./images/chainsawMan.jpg" id="poster" alt="" />
-            <div class="card-text">
-              <p id="title">Chainsaw Man: Reze Arc</p>
-              <span class="title-container">
-                <p id="release-year">Release Year: 2025</p>
-                <p id="genre">Genre: Action</p>
-              </span>
-              <p id="description">
-                A direct sequel to the first season of the series 'Chainsaw
-                Man', featuring Denji, a young man who co-exists with a chainsaw
-                demon. Denji encounters a new romantic interest, but will his
-                involvement place them both in danger?
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./images/chainsawMan.jpg" id="poster" alt="" />
-            <div class="card-text">
-              <p id="title">Chainsaw Man: Reze Arc</p>
-              <span class="title-container">
-                <p id="release-year">Release Year: 2025</p>
-                <p id="genre">Genre: Action</p>
-              </span>
-              <p id="description">
-                A direct sequel to the first season of the series 'Chainsaw
-                Man', featuring Denji, a young man who co-exists with a chainsaw
-                demon. Denji encounters a new romantic interest, but will his
-                involvement place them both in danger?
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./images/chainsawMan.jpg" id="poster" alt="" />
-            <div class="card-text">
-              <p id="title">Chainsaw Man: Reze Arc</p>
-              <span class="title-container">
-                <p id="release-year">Release Year: 2025</p>
-                <p id="genre">Genre: Action</p>
-              </span>
-              <p id="description">
-                A direct sequel to the first season of the series 'Chainsaw
-                Man', featuring Denji, a young man who co-exists with a chainsaw
-                demon. Denji encounters a new romantic interest, but will his
-                involvement place them both in danger?
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./images/chainsawMan.jpg" id="poster" alt="" />
-            <div class="card-text">
-              <p id="title">Chainsaw Man: Reze Arc</p>
-              <span class="title-container">
-                <p id="release-year">Release Year: 2025</p>
-                <p id="genre">Genre: Action</p>
-              </span>
-              <p id="description">
-                A direct sequel to the first season of the series 'Chainsaw
-                Man', featuring Denji, a young man who co-exists with a chainsaw
-                demon. Denji encounters a new romantic interest, but will his
-                involvement place them both in danger?
-              </p>
-            </div>
-          </div>
-        </section>
+        <section class="movie-container" id="movieContainer"></section>
       </section>
     </main>
+    <script src="js/app.js"></script>
   </body>
 </html>
