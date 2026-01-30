@@ -2,6 +2,7 @@ let allMovies = [];
 
 const movieContainer = document.getElementById("movieContainer");
 const genreFilter = document.getElementById("genreFilter");
+const searchInput = document.getElementById("searchInput");
 
 fetch("./js/data/movies.json")
   .then((res) => res.json())
@@ -15,6 +16,11 @@ fetch("./js/data/movies.json")
 
 function renderMovies(movies) {
   movieContainer.innerHTML = "";
+
+  if (movies.length === 0) {
+    movieContainer.innerHTML = "<p>No movies found.</p>";
+    return;
+  }
 
   movies.forEach((movie) => {
     const card = document.createElement("div");
@@ -55,17 +61,27 @@ function populateGenres(movies) {
   });
 }
 
-genreFilter.addEventListener("change", () => {
+function applyFilters() {
   const selectedGenre = genreFilter.value;
+  const searchText = searchInput.value.toLowerCase();
 
-  if (selectedGenre === "") {
-    renderMovies(allMovies);
-    return;
+  let filteredMovies = allMovies;
+
+  if (selectedGenre !== "") {
+    filteredMovies = filteredMovies.filter(
+      (movie) => movie.genre === selectedGenre,
+    );
   }
 
-  const filteredMovies = allMovies.filter(
-    (movie) => movie.genre === selectedGenre,
-  );
+  if (searchText !== "") {
+    filteredMovies = filteredMovies.filter((movie) =>
+      movie.title.toLowerCase().includes(searchText),
+    );
+  }
 
   renderMovies(filteredMovies);
-});
+}
+
+genreFilter.addEventListener("change", applyFilters);
+
+searchInput.addEventListener("input", applyFilters);
